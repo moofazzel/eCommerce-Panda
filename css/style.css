@@ -1,0 +1,136 @@
+
+section{
+    padding: 30px 0;
+}
+
+
+/* Main CSS Start  */
+.hero-bg{
+    background: #feeae9;
+}
+.carousel-item{
+    padding: 50px;
+}
+.price{
+    color: #ff136f;
+}
+.btn-buy-now{
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    padding: 10px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.btn-buy-now i{
+    margin-left: 8px;
+}
+.btn-buy-now:hover{
+    background: #c7044f;
+}
+
+/* Categories start  */
+.cat-1{
+    background: orange;
+}
+.cat-2{
+    background: orchid;
+}
+.cat-3{
+    background: blue;
+}
+.cat-1,.cat-2,.cat-3{
+    padding: 10px 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 15px;
+}
+.categories img{
+    width: 100px;
+}
+.categories span{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* product start  */
+.card-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card{
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 0 87px 0px lightgrey;
+}
+
+/* Subscribe start  */
+#subscribe{
+    color: rgb(106, 99, 99);
+    background: #feeae9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.sub-btn{
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    padding: 8px 25px;
+    color: #fff;
+    border: none;
+    margin-left: -10px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+
+#subscribe input{
+    padding: 8px 50px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+
+#subscribe input:focus{
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-item {
+        text-align: center !important;
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .carousel-item {
+        text-align: center !important;
+        flex-direction: column-reverse;
+    }
+}

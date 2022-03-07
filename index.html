@@ -9,6 +9,8 @@
     <!-- Bootstrap 5.1.3  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Main css  -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -21,43 +23,240 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                      </li>
+                    <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
                         </ul>
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                          </svg>
-                      </button>
-                    </form>
-                  </div>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
                 </div>
-              </nav>
+            </nav>
         </div>
     </header>
     <!-- Header End -->
+    <!-- Hero section start  -->
+    <section class="hero">
+        <div class="container hero-bg">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center flex-sm-column-reverse">
+                            <div class=" col-md-7">
+                                <h2>MI LED TV 4A PRO 32</h2>
+                                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ipsa nobis nihil distinctio, perspiciatis laudantium.</P>
+                                <h2 class="price">$1299</h2>
+                                <button class="btn-buy-now">Buy Now <i class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="./images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center flex-sm-column-reverse">
+                            <div class=" col-md-7">
+                                <h2>Xbox 2022</h2>
+                                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ipsa nobis nihil distinctio, perspiciatis laudantium.</P>
+                                <h2 class="price">$599</h2>
+                                <button class="btn-buy-now">Buy Now <i class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="./images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center flex-sm-column-reverse">
+                            <div class=" col-md-7">
+                                <h2 class="mt-5">Sony Headphones & Headsets </h2>
+                                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ipsa nobis nihil distinctio, perspiciatis laudantium.</P>
+                                <h2 class="price">$380</h2>
+                                <button class="btn-buy-now">Buy Now <i class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="./images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section End  -->
+    <!-- Categories start  -->
+    <section class="categories">
+        <div class="container">
+            <h2>Categories</h2>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="cat-1 d-flex justify-content-between align-items-center">
+                        <span>Watch</span>
+                        <img src="./images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat-2 d-flex justify-content-between align-items-center">
+                        <span>Bags</span>
+                        <img src="./images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat-3 d-flex justify-content-between align-items-center">
+                        <span>Shoes</span>
+                        <img src="./images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories End  -->
 
+    <!-- Product start  -->
+    <section class="product">
+        <div class="container">
+            <div class="shoes text-center">
+                <h2 class="text-start pb-5">Shoes</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Supply 420</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. isicing.</p>
+                                <h2 class="price mt-4">$299</h2>
+                                <button class="btn-buy-now mb-3">Buy Now <i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike 320</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. isicing..</p>
+                                <h2 class="price mt-4">$199</h2>
+                                <button class="btn-buy-now mb-3">Buy Now <i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Red 220</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. isicing.</p>
+                                <h2 class="price mt-4">$129</h2>
+                                <button class="btn-buy-now mb-3">Buy Now <i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" bags text-center">
+                <h2 class="text-start py-5">Bags</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Supply 420</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. isicing.</p>
+                                <h2 class="price mt-4">$299</h2>
+                                <button class="btn-buy-now mb-3">Buy Now <i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike 320</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. isicing..</p>
+                                <h2 class="price mt-4">$199</h2>
+                                <button class="btn-buy-now mb-3">Buy Now <i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Red 220</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. isicing.</p>
+                                <h2 class="price mt-4">$129</h2>
+                                <button class="btn-buy-now mb-3">Buy Now <i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product end  -->
+
+    <!-- News Subscribe start  -->
+    <section>
+        <div id="subscribe" class="container text-center">
+            <h4 class="text-uppercase">let's stay in touch</h4>
+            <h6>Get updates on sales, specials and more</h6>
+            <input type="text" name="" id="">
+            <button class="sub-btn">Buy Now </i></button>
+        </div>
+    </section>
+    <!-- News Subscribe End  -->
 
 
 
